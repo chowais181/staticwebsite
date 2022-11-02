@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: #000;
+  background: #fff;
+}
+
+.intro {
+  padding: 50px;
+}
+nav {
+  position: fixed;
+  background: rgb(4, 148, 76);
+  width: 100%;
+  padding: 0px 0;
+  z-index: 12;
+}
+nav .menu {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 300;
+}
+.menu ul {
+  display: inline-flex;
+}
+.menu ul li {
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child {
+  margin-left: 0px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover {
+  background: #fff;
+  height: 60px;
+  color: green;
+}
+.img {
+  /* background: url('img3.jpg')no-repeat; */
+  background-color: #4caf50;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+}
+.center .sub_title {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.center .btns {
+  margin-top: 20px;
+}
+.center .btns button {
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child {
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover {
+  background: white;
+  color: black;
+}
+.center .btns button:last-child {
+  background: white;
+  color: black;
+}
+.Card {
+  background-color: rgb(0, 138, 73);
+  padding: 35px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
+/* .rang{
+    margin-left: 20%;
+    
+} */
+#i1 {
+  height: 60px;
+  width: 60px;
+}
+.about {
+  margin-top: 100px;
+  text-align: center;
+}
+.main {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.main1 {
+  width: 50%;
+  margin-left: 10px;
+}
+.main2 {
+  width: 50%;
+  margin-top: 22px;
+}
+#i5 {
+  height: 400px;
+  width: 400px;
+}
+#i6 {
+  height: 400px;
+  width: 400px;
+}
+.mainn {
+  display: flex;
+  margin-top: 85px;
+}
+#i7 {
+  margin-left: 65px;
+  height: 100px;
+  width: 200px;
+}
+#i8 {
+  margin-left: 65px;
+  height: 100px;
+  width: 200px;
+}
+#i9 {
+  margin-left: 65px;
+  height: 100px;
+  width: 200px;
+}
+#i10 {
+  margin-left: 65px;
+  height: 100px;
+  width: 200px;
+}
+.mainm {
+  margin-top: 85px;
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+}
+#i11 {
+  width: 300px;
+  height: 300px;
+}
+.mainm1 {
+  width: 40%;
+  margin-left: 80px;
+}
+.mainm2 {
+  width: 60%;
+}
+#i12 {
+  width: 1000px;
+  height: 700px;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+#a3 {
+  width: 80px;
+  height: 80px;
+  margin: 40px;
+}
+.mainmm3 {
+  margin-left: 100px;
+  display: flex;
+}
+#a11 {
+  margin-left: 60px;
+}
+#a12 {
+  margin-left: 60px;
+}
+#a13 {
+  margin-left: 60px;
+}
+.mainmm4 {
+  margin-left: 100px;
+  display: flex;
+}
+.mainmm5 {
+  margin-left: 100px;
+  display: flex;
+}
+.mainmmm4 {
+  margin-left: 100px;
+  display: flex;
+}
+#a111 {
+  margin-left: 60px;
+}
+#a112 {
+  margin-left: 60px;
+}
+#a113 {
+  margin-left: 60px;
+}
+.mai {
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+}
+.ma1 {
+  width: 35%;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.ma2 {
+  width: 65%;
+}
+#f {
+  color: aquamarine;
+}
+.child {
+  display: none;
+  position: absolute;
+  background-color: black;
+}
+.parent:hover .child {
+  display: block;
+}
+.easy {
+  display: none;
+  position: absolute;
+  background-color: black;
+  left: 100px;
+}
+.grand:hover .easy {
+  display: list-item;
+}
+.m {
+  display: inline-block;
+  width: 100%;
+}
+.mmm {
+  width: 70px;
+}
+#aa {
+  margin-left: 1000px;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+}
